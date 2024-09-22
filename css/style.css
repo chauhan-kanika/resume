@@ -1,0 +1,36 @@
+/* Page container */
+.page-container {
+    max-width: 800px;  /* Set a fixed width for your content to look like a document */
+    margin: 0 auto;    /* Center the content on the page */
+    padding: 20px;     /* Padding for space inside the content */
+    background-color: #fff; /* White background like a Word document */
+}
+
+/* Ensure the entire page fits well */
+body {
+    background-color: #f4f4f4; /* Light background to distinguish content */
+    font-family: Arial, sans-serif; /* Set a simple font */
+    padding: 10px 0; /* Padding at the top and bottom */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+.section-title {
+    color: #093f7c;
+    font-size: 18px;
+    border-bottom: 2px solid #00008B;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    overflow: hidden; /* This clears the float */
+}
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+@media print {
+    #print {
+        display: none; /* Hide the print button during printing */
+    }
+}
